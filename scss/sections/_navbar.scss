@@ -1,0 +1,20 @@
+@use "../custom" as *;
+@use "../components/mixins.scss" as *;
+
+
+.menu {
+    
+    @include gradient;
+
+    a {
+        color: $white !important;
+        text-transform: capitalize;
+        margin: auto;
+        margin-right: 2rem;
+        
+    }
+
+    .padding {
+       padding: 0 0.7rem;
+    }
+}
